@@ -1,0 +1,14 @@
+//
+
+.container {
+  display: flex;
+  // align-items: flex-start;
+  // align-items: flex-end;
+  align-items: center;
+  // align-items: stretch;
+  align-items: baseline;
+
+  border: 0.5rem solid mistyrose;
+  min-height: 100vh;
+  // height: 100vh;
+}

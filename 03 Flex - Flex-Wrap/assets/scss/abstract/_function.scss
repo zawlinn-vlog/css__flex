@@ -1,0 +1,5 @@
+/*    GET COLOR */
+
+@function getColor($name) {
+  @return var(--#{$name});
+}

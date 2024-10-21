@@ -1,0 +1,54 @@
+//
+
+.box {
+  // width: 30rem;
+  color: #fff;
+  font-size: 1.8rem;
+  padding: 2rem;
+
+  // width: calc((100% / 3) - 1rem);
+  // height: 20rem;
+
+  // flex: 1;
+}
+
+@for $i from 1 through 10 {
+  .box#{$i} {
+    background-color: getColor(color--#{$i});
+  }
+}
+
+// .box1 {
+//   font-size: 1rem;
+// }
+
+.box3 {
+  font-size: 3rem;
+  padding-bottom: 20rem;
+  align-self: center;
+}
+
+// .box4 {
+//   font-size: 5rem;
+// }
+
+.box5 {
+  font-size: 0.2rem;
+  align-self: baseline;
+}
+
+.box6 {
+  font-size: 4rem;
+  padding-bottom: 0;
+  align-self: flex-end;
+}
+
+.box9 {
+  font-size: 1.6rem;
+  padding-bottom: 3rem;
+}
+.box10 {
+  font-size: 1.9rem;
+  padding-bottom: 5rem;
+  align-self: stretch;
+}

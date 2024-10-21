@@ -1,0 +1,18 @@
+//
+
+.container {
+  display: flex;
+  //   display: inline-flex;
+  flex-direction: row; // default
+  // flex-direction: row-reverse;
+  flex-direction: column;
+  // flex-direction: column-reverse;
+
+  flex-wrap: wrap;
+  flex-wrap: wrap-reverse;
+  gap: 1rem;
+
+  border: 0.5rem solid goldenrod;
+  // min-height: 100vh;
+  height: 100vh;
+}

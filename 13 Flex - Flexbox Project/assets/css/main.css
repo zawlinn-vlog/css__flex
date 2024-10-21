@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+:root {
+  --primary-color: #2ecc71;
+  --secondary-color: #16a085;
+  --light-color: #efefef;
+  --black-color: #222;
+  --primary__gradient-color: linear-gradient(to right, #2ecc71, #16a085);
+}
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: "lato", sans-serif;
+  line-height: 1.7;
+}
+
+.navbar__img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.navbar__wrapper {
+  list-style: none;
+  font-size: 1.8rem;
+  background: rgba(34, 34, 34, 0.5);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  display: flex;
+}
+.navbar__items {
+  flex: 5;
+  padding: 1rem;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar__items:hover {
+  background-color: rgba(34, 34, 34, 0.8);
+}
+.navbar .arrow {
+  flex: 1;
+}
+.navbar__links {
+  text-decoration: none;
+  color: var(--light-color);
+}
+
+.container {
+  max-width: 114rem;
+  margin: 0 auto;
+}
+
+.wrapper {
+  min-height: 100vh;
+  background-image: var(--primary__gradient-color);
+}
+
+/*# sourceMappingURL=main.css.map */

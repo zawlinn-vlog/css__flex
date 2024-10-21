@@ -1,0 +1,111 @@
+/* FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+/* VARIABLES */
+:root {
+  --color--1: #1abc9c;
+  --color--2: #3498db;
+  --color--3: #9b59b6;
+  --color--4: #34495e;
+  --color--5: #f1c40f;
+  --color--6: #e67e22;
+  --color--7: #e74c3c;
+  --color--8: #bdc3c7;
+  --color--9: #2ecc71;
+  --color--10: #16a085;
+}
+
+/*    GET COLOR */
+/* ALL RESET */
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: inherit;
+     -moz-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: "lato", sans-serif;
+  line-height: 1.7;
+}
+
+.box {
+  color: #fff;
+  font-size: 1.8rem;
+  padding: 2rem;
+  width: -webkit-calc(33.3333333333% - 1rem);
+  width: -moz-calc(33.3333333333% - 1rem);
+  width: calc(33.3333333333% - 1rem);
+  height: 20rem;
+}
+
+.box1 {
+  background-color: var(--color--1);
+}
+
+.box2 {
+  background-color: var(--color--2);
+}
+
+.box3 {
+  background-color: var(--color--3);
+}
+
+.box4 {
+  background-color: var(--color--4);
+}
+
+.box5 {
+  background-color: var(--color--5);
+}
+
+.box6 {
+  background-color: var(--color--6);
+}
+
+.box7 {
+  background-color: var(--color--7);
+}
+
+.box8 {
+  background-color: var(--color--8);
+}
+
+.box9 {
+  background-color: var(--color--9);
+}
+
+.box10 {
+  background-color: var(--color--10);
+}
+
+.container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+     -moz-box-orient: horizontal;
+     -moz-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  flex-direction: column;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-flex-wrap: wrap-reverse;
+      -ms-flex-wrap: wrap-reverse;
+          flex-wrap: wrap-reverse;
+  gap: 1rem;
+  border: 0.5rem solid goldenrod;
+  height: 100vh;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Njc3MvYWJzdHJhY3QvX3ZhcmlhYmxlcy5zY3NzIiwibWFpbi5jc3MiLCIuLi9zY3NzL2Fic3RyYWN0L19mdW5jdGlvbi5zY3NzIiwiLi4vc2Nzcy9iYXNlL19iYXNlLnNjc3MiLCIuLi9zY3NzL2NvbXBvbmVudHMvX2NvbXBvbmVudHMuc2NzcyIsIi4uL3Njc3MvbGF5b3V0L19mbGV4LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsVUFBQTtBQUVRLCtJQUFBO0FBRVIsY0FBQTtBQTBCQTtFQUVJLG1CQUFBO0VBQUEsbUJBQUE7RUFBQSxtQkFBQTtFQUFBLG1CQUFBO0VBQUEsbUJBQUE7RUFBQSxtQkFBQTtFQUFBLG1CQUFBO0VBQUEsbUJBQUE7RUFBQSxtQkFBQTtFQUFBLG9CQUFBO0FDbEJKOztBQ2RBLGlCQUFBO0FDQUEsY0FBQTtBQUVBO0VBQ0UsVUFBQTtFQUNBLFNBQUE7RUFDQSwyQkFBQTtLQUFBLHdCQUFBO1VBQUEsbUJBQUE7QUZpQkY7O0FFZEE7RUFDRSw4QkFBQTtLQUFBLDJCQUFBO1VBQUEsc0JBQUE7RUFDQSxnQkFBQTtFQUNBLCtCQUFBO0VBQ0EsZ0JBQUE7QUZpQkY7O0FHM0JBO0VBQ0UsV0FBQTtFQUNBLGlCQUFBO0VBQ0EsYUFBQTtFQUVBLDBDQUFBO0VBQUEsdUNBQUE7RUFBQSxrQ0FBQTtFQUNBLGFBQUE7QUg2QkY7O0FHekJFO0VBQ0UsaUNBQUE7QUg0Qko7O0FHN0JFO0VBQ0UsaUNBQUE7QUhnQ0o7O0FHakNFO0VBQ0UsaUNBQUE7QUhvQ0o7O0FHckNFO0VBQ0UsaUNBQUE7QUh3Q0o7O0FHekNFO0VBQ0UsaUNBQUE7QUg0Q0o7O0FHN0NFO0VBQ0UsaUNBQUE7QUhnREo7O0FHakRFO0VBQ0UsaUNBQUE7QUhvREo7O0FHckRFO0VBQ0UsaUNBQUE7QUh3REo7O0FHekRFO0VBQ0UsaUNBQUE7QUg0REo7O0FHN0RFO0VBQ0Usa0NBQUE7QUhnRUo7O0FJM0VBO0VBQ0Usb0JBQUE7RUFBQSxxQkFBQTtFQUFBLGlCQUFBO0VBQUEsb0JBQUE7RUFBQSxhQUFBO0VBRUEsOEJBQUE7RUFBQSw2QkFBQTtFQUFBLDJCQUFBO0tBQUEsMkJBQUE7S0FBQSwwQkFBQTtNQUFBLHVCQUFBO1VBQUEsbUJBQUE7RUFFQSxzQkFBQTtFQUdBLHVCQUFBO01BQUEsbUJBQUE7VUFBQSxlQUFBO0VBQ0EsK0JBQUE7TUFBQSwyQkFBQTtVQUFBLHVCQUFBO0VBQ0EsU0FBQTtFQUVBLDhCQUFBO0VBRUEsYUFBQTtBSndFRiIsImZpbGUiOiJtYWluLmNzcyJ9 */

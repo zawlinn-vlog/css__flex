@@ -1,0 +1,18 @@
+//
+
+.box {
+  color: #fff;
+  font-size: 1.8rem;
+  padding: 2rem;
+
+  // width: calc((100% / 3) - 1rem);
+  // height: 20rem;
+
+  // flex: 1;
+}
+
+@for $i from 1 through 10 {
+  .box#{$i} {
+    background-color: getColor(color--#{$i});
+  }
+}

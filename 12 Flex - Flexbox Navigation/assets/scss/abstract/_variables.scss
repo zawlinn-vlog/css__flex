@@ -1,0 +1,29 @@
+//
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+//
+
+$primary: #2ecc71;
+$secondary: #16a085;
+$light: #efefef;
+$black: #222;
+$primary__gradient: linear-gradient(
+  to right,
+  rgba($primary, 1),
+  rgba($secondary, 1)
+);
+
+$colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "light": $light,
+  "black": $black,
+  "primary__gradient": $primary__gradient,
+);
+
+:root {
+  @each $name, $color in $colors {
+    --#{$name}-color: #{$color};
+  }
+}

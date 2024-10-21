@@ -1,0 +1,13 @@
+//
+
+.box {
+  color: #fff;
+  font-size: 1.8rem;
+  padding: 2rem;
+}
+
+@for $i from 1 through 10 {
+  .box#{$i} {
+    background-color: getColor(color--#{$i});
+  }
+}

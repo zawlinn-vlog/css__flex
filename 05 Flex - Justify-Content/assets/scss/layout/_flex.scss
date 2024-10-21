@@ -1,0 +1,16 @@
+//
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  justify-content: flex-end;
+  justify-content: center;
+  justify-content: space-between;
+  justify-content: space-around;
+  justify-content: space-evenly;
+
+  border: 0.5rem solid mistyrose;
+  min-height: 100vh;
+  // height: 100vh;
+}
